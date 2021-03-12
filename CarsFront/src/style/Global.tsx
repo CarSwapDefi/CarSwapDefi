@@ -11,9 +11,9 @@ const GlobalStyle = createGlobalStyle`
   * {
     font-family: 'Kanit', sans-serif;
   }
-  .sc-eCssSg >.kEyEBW{    visibility:hidden!important  }
+  .sc-eCssSg >.kEyEBW{    display: none!important  }
   .fvYuMC{    
-    visibility:hidden!important  
+    display: none!important  
     }
   body {
     background-color: ${({ theme }) => theme.colors.background};
@@ -26,3 +26,4 @@ const GlobalStyle = createGlobalStyle`
 `
 
 export default GlobalStyle
+
