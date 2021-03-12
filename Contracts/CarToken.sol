@@ -1,5 +1,7 @@
 pragma solidity 0.6.12;
 
+import "./libs/BEP20.sol";
+
 
 // EggToken with Governance.
 contract CarToken is BEP20('CarSwap Token', 'CAR') {
