@@ -62,7 +62,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Car Finance')}
         </Heading>
-        <Text>{TranslateString(578, "Launching 03/15/2021 1AM UTC. Countdown: https://bscscan.com/block/countdown/5688446")}</Text>
+        <Text>{TranslateString(578, "Top Deflationary BSC farm in the World.")}</Text>
       </Hero>
       <div>
         <Cards>
