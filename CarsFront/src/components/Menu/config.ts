@@ -49,7 +49,12 @@ const config: MenuEntry[] = [
   //      href: 'https://www.coingecko.com/en/coins/car-finance',
   //    },
 //    ],
-//  },
+//  },  
+  {
+    label:'Completed Audit Results',
+    icon: 'InfoIcon',
+    href: 'https://github.com/TechRate/Smart-Contract-Audits/blob/main/CarSwap.pdf',
+  },
   {
     label: 'Twitter',
     icon: 'InfoIcon',
