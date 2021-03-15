@@ -30,6 +30,34 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/nests',
   },
+  {
+    label: 'Casino (Coming very Soon)',
+    icon: 'TradeIcon',
+    items: [
+    {
+      label: 'BlackJack',
+      href: '',
+    },
+    {
+      label: 'Baccarat',
+      href: '',
+    },
+    {
+      label: 'Roulette',
+      href: '',
+    },
+    {
+      label: 'Poker',
+      href: '',
+    },
+    ],
+  },
+  {
+    label: 'Layered Farming (Coming Soon)',
+    icon: 'PoolIcon',
+    href: '',
+  },
+
   
 //  {
 //    label: 'Info',
